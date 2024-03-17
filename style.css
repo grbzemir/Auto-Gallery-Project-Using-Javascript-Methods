@@ -1,0 +1,80 @@
+/*
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+
+
+}
+
+
+#calculator
+{
+
+    font-family: Arial,  sans-serif; /* font ailesi ayarlandı */
+    background-color: hsl(0, 0%, 15%); /* arka plan rengi ayarlandı */
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden; /* taşan içerikler gizlendi */
+
+/*}
+
+#display
+{
+
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left; /* sola hizalama */
+    border: none; /* kenarlık yok */
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+/*}
+#keys
+{
+    display: grid; /* grid yapısı kullanıldı */
+    grid-template-columns: repeat(4, 1fr); /* 4 tane 1fr'lik kolon oluşturuldu */
+    gap: 10px; /* aralıklar ayarlandı */
+    padding: 25px; /* içeriklerin kenar boşlukları ayarlandı */
+/*}
+
+button
+{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; /* kıvrımlar ayarlandı */
+    border: none; /* kenarlık yok */
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem; /* 1rem = 16px */
+    font-weight: bold; /* kalın yazı */
+    cursor: pointer; /* imleç şekli */
+
+/*}
+
+/*
+button:hover
+{
+    background-color: hsl(0, 0%, 40%);
+
+}
+
+button:active
+{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn
+{
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover
+{
+    background-color: hsl(35, 100%, 65%);
+} 
+
